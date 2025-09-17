@@ -24,4 +24,4 @@ build/
 venv/
 ENV/
 
-!notes/          
+\!notes/          
