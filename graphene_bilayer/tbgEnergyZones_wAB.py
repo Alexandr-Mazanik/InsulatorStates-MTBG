@@ -17,10 +17,12 @@ N_JOBS = 6             # number of processes
 
 w_AA = 0               # meV  -- interlayer hopping energy (AA bilayer stacking)
 w_AB = 110             # meV  -- interlayer hopping energy (AB bilayer stacking)
-t = 2700               # meV  -- intralayer hopping energy
+t = 2730               # meV  -- intralayer hopping energy
 
-alpha = 2.221          # 1 / theta (see Tarnopolsky et al. (2019))
-cutoff = 16            # number of shells to include (more for better accuracy)
+# alpha = 0.585663558388 - exact first magic angle
+
+alpha = 0.586          # 1 / theta (see Tarnopolsky et al. (2019))
+cutoff = 10            # number of shells to include (more for better accuracy)
 
 N = 400                # density of k points          
 num_bands_show = 10    # number of zones displayed
